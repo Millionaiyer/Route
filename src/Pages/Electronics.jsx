@@ -5,6 +5,7 @@ const Electronics = () => {
   return (
     <div>
       <Header />
+      Electronics
     </div>
   );
 };

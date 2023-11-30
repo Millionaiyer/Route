@@ -1,7 +1,12 @@
 import React from 'react';
-
+import Header from './Header';
 const Jewelery = () => {
-  return <div>Jewelery</div>;
+  return (
+    <>
+      <Header />
+      <div></div>
+    </>
+  );
 };
 
 export default Jewelery;
