@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
           <Link to="/"> Home</Link>
         </li>
         <li className="flex hover:text-[#C4A062] hover:font-normal">
-          <Link to="/jewelery"> Jewelery</Link>
+          <Link to="/jewelery"> Jewelry</Link>
         </li>
         <li className="flex hover:text-[#C4A062] hover:font-normal">
           <Link to="/electronics"> Electronics</Link>
