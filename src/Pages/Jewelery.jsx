@@ -24,15 +24,15 @@ const Jewelery = () => {
   return (
     <>
       <Header />
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center mt-10">
         <div className="w-[80%] mx-auto flex gap-10 flex-col CONTAINER">
-          <div>
-            <span className="text-[40px] text-center font-thin ">
+          <div className="flex justify-center">
+            <span className="text-[48px] text-center font-thin font-Inter  ">
               Jewellery
             </span>
           </div>
           <div>
-            <span className="flex">
+            <span className="flex text-base text-[22px]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -40,7 +40,7 @@ const Jewelery = () => {
             </span>
           </div>
 
-          <div className="flex gap-5">
+          <div className="flex justify-center gap-5">
             {products.map((item) => {
               if (item.category === "jewelery") {
                 return (

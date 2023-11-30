@@ -14,7 +14,9 @@ const Card = ({ productData }) => {
         </p>
       </div>
       <div className="bg-[#f6f1ea]">
-        <p className="p-[5px] font-normal hover:bg[#999] w-[200px]">{price}</p>
+        <p className="p-[5px] font-normal text-[#999] hover:text-[#000] hover:bg[#999] w-[200px]">
+          {price}
+        </p>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import NoMatch from "./Pages/NoMatch.jsx";
+import NoMatch from "./Pages/NoMatch.jsx";
 import Jewelery from "./Pages/Jewelery.jsx";
 import Electronics from "./Pages/Electronics.jsx";
 import MenClothing from "./Pages/MenClothing.jsx";
@@ -18,7 +18,7 @@ function App() {
         <Route path="/menClothing" element={<MenClothing />} />
         <Route path="/womenClothing" element={<WomenClothing />} />
         <Route path="/products/:id" element={<CardDetails />} />
-        {/* <Route path="*" element={<NoMatch />} /> */}
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </Router>
   );
